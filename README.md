@@ -11,9 +11,9 @@
 
 Tugas ini menganalisis data laba/rugi harian dari lima gerai donat dengan strategi marketing yang berbeda, menggunakan dua metode numerik utama:
 
-1. Regresi — untuk menemukan bentuk hubungan antara volume penjualan dan revenue.
+1. Regresi : untuk menemukan bentuk hubungan antara volume penjualan dan revenue.
 
-2. Pencarian Akar (Root Finding) — untuk menentukan titik Break Even Point (BEP) / titik impas dari masing-masing gerai.
+2. Pencarian Akar (Root Finding) : untuk menentukan titik Break Even Point (BEP) / titik impas dari masing-masing gerai.
 
 ## **Tujuan**
 
@@ -69,3 +69,9 @@ Menganalisis hasil regresi dan BEP dari masing-masing gerai berdasarkan model ya
 - `Biaya Variabel (Rp)`
 - `Fixed Cost Harian (Rp)`
 
+## Library yang Digunakan
+
+1. pandas — manipulasi data
+2. numpy — operasi numerik & regresi polinomial (polyfit)
+3. matplotlib — visualisasi data
+4. scipy.optimize — fitting model eksponensial (curve_fit)

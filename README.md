@@ -7,7 +7,7 @@
 **Mata Kuliah :** Analisis Numerik
 
 
-## **Deskripsi Tugas**
+### **Deskripsi Tugas**
 
 Tugas ini menganalisis data laba/rugi harian dari lima gerai donat dengan strategi marketing yang berbeda.
 
@@ -16,7 +16,7 @@ Metode yang digunakan yaitu:
 1. **Regresi** untuk melihat hubungan antara volume penjualan dan revenue.
 2. **Pencarian Akar (Root Finding)** untuk menentukan titik Break Even Point (BEP) atau titik impas dari masing-masing gerai.
 
-## **Tujuan**
+### **Tujuan**
 
 1. Menerapkan metode regresi untuk menganalisis dan memodelkan hubungan antara volume penjualan dengan revenue pada lima gerai donat dengan strategi marketing yang berbeda.
 
@@ -26,7 +26,7 @@ Metode yang digunakan yaitu:
 
 4. Mengimplementasikan konsep regresi dan pencarian akar dalam analisis data penjualan menggunakan Python.
 
-## **Gerai yang Dianalisis**
+### **Gerai yang Dianalisis**
 
 | Gerai | Strategi Marketing |
 |-------|---------------------|
@@ -36,7 +36,7 @@ Metode yang digunakan yaitu:
 | D     | Mall Premium Flagship : Sewa Lokasi Tinggi |
 | E     | Cloud Kitchen : Fokus App Delivery, Terkena Komisi Platform 18% |
 
-## Dataset
+### Dataset
 
 Dataset yang digunakan adalah **sintesis_data_donat_harian.csv** yang berisi data penjualan harian dari lima gerai donat.
 
@@ -51,7 +51,7 @@ Variabel yang digunakan dalam analisis antara lain:
 - `Biaya Variabel (Rp)`
 - `Fixed Cost Harian (Rp)`
 
-## Metodologi
+### Metodologi
 
 1. Visualisasi Data
 Memvisualisasikan hubungan antara jumlah penjualan dan revenue pada kelima gerai menggunakan scatter plot untuk melihat pola hubungan antarvariabel.
@@ -65,14 +65,14 @@ Menggunakan metode Bisection untuk mencari jumlah volume penjualan saat fungsi p
 4. Analisis Hasil
 Menganalisis hasil regresi dan BEP dari masing-masing gerai berdasarkan model yang diperoleh.
 
-## Library yang Digunakan
+### Library yang Digunakan
 
 1. `pandas` untuk pengolahan data
 2. `numpy` untuk operasi numerik dan regresi
 3. `matplotlib` untuk visualisasi data
 4. `scipy.optimize` untuk fitting model eksponensial
 
-## Cara Menjalankan
+### Cara Menjalankan
 
 1. Clone atau download repository ini.
 2. Buka notebook menggunakan Google Colab atau Jupyter Notebook.

@@ -49,3 +49,23 @@ Variabel yang digunakan dalam analisis antara lain:
 - `Pendapatan Kotor (Rp)`
 - `Biaya Variabel (Rp)`
 - `Fixed Cost Harian (Rp)`
+
+## Metodologi
+
+1. Visualisasi Data
+Memvisualisasikan hubungan antara jumlah penjualan dan revenue pada kelima gerai menggunakan scatter plot untuk melihat pola hubungan antarvariabel.
+
+2. Regresi
+Menerapkan regresi untuk memodelkan hubungan antara volume penjualan dan revenue. Beberapa bentuk model, yaitu linear, kuadratik, dan eksponensial, dibandingkan berdasarkan nilai koefisien determinasi (R²) untuk menentukan model yang sesuai.
+
+3. Pencarian Akar
+Menggunakan metode Bisection untuk mencari jumlah volume penjualan saat fungsi profit bernilai nol. Nilai tersebut digunakan untuk menentukan Break Even Point (BEP) pada masing-masing gerai.
+
+4. Analisis Hasil
+Menganalisis hasil regresi dan BEP dari masing-masing gerai berdasarkan model yang diperoleh.
+- `Gerai`
+- `Jumlah Terjual (Unit)`
+- `Pendapatan Kotor (Rp)`
+- `Biaya Variabel (Rp)`
+- `Fixed Cost Harian (Rp)`
+

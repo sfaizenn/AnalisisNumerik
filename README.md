@@ -29,8 +29,23 @@ Tugas ini menganalisis data laba/rugi harian dari lima gerai donat dengan strate
 
 | Gerai | Strategi Marketing |
 |-------|---------------------|
-| A     | Premium Gourmet — Harga Tinggi, Niche Terbatas, Kafe Specialty |
-| B     | Mass Market Volume — Harga Murah, Margin Tertekan Inflasi Bahan |
-| C     | Promo Agresif — Diskon Awal, Iklan Moderate-High |
-| D     | Mall Premium Flagship — Sewa Lokasi Tinggi |
-| E     | Cloud Kitchen — Fokus App Delivery, Terkena Komisi Platform 18% |
+| A     | Premium Gourmet : Harga Tinggi, Niche Terbatas, Kafe Specialty |
+| B     | Mass Market Volume : Harga Murah, Margin Tertekan Inflasi Bahan |
+| C     | Promo Agresif : Diskon Awal, Iklan Moderate-High |
+| D     | Mall Premium Flagship : Sewa Lokasi Tinggi |
+| E     | Cloud Kitchen : Fokus App Delivery, Terkena Komisi Platform 18% |
+
+## Dataset
+
+Dataset yang digunakan adalah **sintesis_data_donat_harian.csv** yang berisi data penjualan harian dari lima gerai donat.
+
+Sumber dataset:
+https://github.com/jendralhxr/metnummatdis/blob/main/sintesis_data_donat_harian.csv
+
+Variabel yang digunakan dalam analisis antara lain:
+
+- `Gerai`
+- `Jumlah Terjual (Unit)`
+- `Pendapatan Kotor (Rp)`
+- `Biaya Variabel (Rp)`
+- `Fixed Cost Harian (Rp)`

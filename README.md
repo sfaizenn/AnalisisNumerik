@@ -24,3 +24,5 @@ Tugas ini menganalisis data laba/rugi harian dari lima gerai donat dengan strate
 3. Menerapkan metode numerik pencarian akar (root finding), yaitu metode Bisection, untuk menentukan jumlah volume penjualan yang menghasilkan Break Even Point (BEP) atau titik impas pada masing-masing gerai.
 
 4. Mengimplementasikan konsep regresi dan pencarian akar dalam analisis data penjualan menggunakan Python.
+
+5. 

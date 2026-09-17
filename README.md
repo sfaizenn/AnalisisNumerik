@@ -75,3 +75,10 @@ Menganalisis hasil regresi dan BEP dari masing-masing gerai berdasarkan model ya
 2. numpy — operasi numerik & regresi polinomial (polyfit)
 3. matplotlib — visualisasi data
 4. scipy.optimize — fitting model eksponensial (curve_fit)
+
+## Cara Menjalankan
+
+1. Clone atau download repository ini.
+2. Buka notebook menggunakan Google Colab atau Jupyter Notebook.
+3. Pastikan dataset tersedia sesuai sumber yang tercantum pada bagian Dataset.
+4. Jalankan setiap cell secara berurutan.

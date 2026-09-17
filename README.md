@@ -64,11 +64,6 @@ Menggunakan metode Bisection untuk mencari jumlah volume penjualan saat fungsi p
 
 4. Analisis Hasil
 Menganalisis hasil regresi dan BEP dari masing-masing gerai berdasarkan model yang diperoleh.
-- `Gerai`
-- `Jumlah Terjual (Unit)`
-- `Pendapatan Kotor (Rp)`
-- `Biaya Variabel (Rp)`
-- `Fixed Cost Harian (Rp)`
 
 ## Library yang Digunakan
 

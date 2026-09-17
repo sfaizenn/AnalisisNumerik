@@ -25,4 +25,12 @@ Tugas ini menganalisis data laba/rugi harian dari lima gerai donat dengan strate
 
 4. Mengimplementasikan konsep regresi dan pencarian akar dalam analisis data penjualan menggunakan Python.
 
-5. 
+## **Gerai yang Dianalisis**
+
+| Gerai | Strategi Marketing |
+|-------|---------------------|
+| A     | Premium Gourmet — Harga Tinggi, Niche Terbatas, Kafe Specialty |
+| B     | Mass Market Volume — Harga Murah, Margin Tertekan Inflasi Bahan |
+| C     | Promo Agresif — Diskon Awal, Iklan Moderate-High |
+| D     | Mall Premium Flagship — Sewa Lokasi Tinggi |
+| E     | Cloud Kitchen — Fokus App Delivery, Terkena Komisi Platform 18% |

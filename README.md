@@ -1,4 +1,4 @@
-# Analisis Numerik : Regresi & Pencarian Akar pada Studi Kasus BEP Gerai Donat
+## Analisis Numerik : Regresi & Pencarian Akar pada Studi Kasus BEP Gerai Donat
 
 **Nama :** Sandi Fadia Aizena 
 

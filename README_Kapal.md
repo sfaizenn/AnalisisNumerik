@@ -55,3 +55,24 @@ Variabel yang digunakan dalam analisis antara lain:
    Reserve buoyancy (di luar x = 2 sampai 18 kotak) tidak dihitung, sehingga integrasi hanya dilakukan pada x = 90 sampai 810 cm (n = 16 interval, h = 45 cm).
 5. **Integrasi Numerik**
    Volume satu lambung dihitung dengan dua metode:
+   dengan h = 45 cm dan n = 16.
+
+### Hasil
+| Metode | Volume 1 lambung | Volume 2 lambung |
+|--------|------------------|------------------|
+| Aturan trapesium | 6,635 m³ | 13,270 m³ |
+| Aturan Simpson 1/3 | 6,646 m³ | 13,292 m³ |
+Selisih antara kedua metode sebesar 0,16%.
+
+### Library yang Digunakan
+1. `PyMuPDF (fitz)` untuk membaca berkas PDF dan mengonversinya menjadi gambar
+2. `numpy` untuk operasi numerik dan array
+3. `pandas` untuk menyusun tabel data pengukuran dan tabel hasil
+4. `scipy` (fungsi `simpson`) untuk integrasi aturan Simpson 1/3
+5. `matplotlib` untuk visualisasi gambar, overlay, dan profil lambung
+
+### Cara Menjalankan
+1. Clone atau download repository ini.
+2. Buka notebook menggunakan Google Colab.
+3. Jalankan setiap cell secara berurutan.
+4. Saat diminta pada cell pertama, unggah berkas `perahu.pdf`.

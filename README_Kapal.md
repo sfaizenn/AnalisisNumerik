@@ -62,6 +62,7 @@ Variabel yang digunakan dalam analisis antara lain:
 |--------|------------------|------------------|
 | Aturan trapesium | 6,635 m³ | 13,270 m³ |
 | Aturan Simpson 1/3 | 6,646 m³ | 13,292 m³ |
+
 Selisih antara kedua metode sebesar 0,16%.
 
 ### Library yang Digunakan
